@@ -62,7 +62,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     # 1. 초기 화면: 상담 양식이 아직 활성화되지 않았을 때
     if not st.session_state.show_form:
-        st.write("### 전문가 상담")
+        st.write("### 전문가 상담 (Type B)")
         st.write("아래 버튼을 누르면 안내 영상이 시작됩니다.")
         
         if st.button("상담 신청"):
